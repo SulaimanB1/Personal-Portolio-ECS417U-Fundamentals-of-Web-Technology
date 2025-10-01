@@ -1,0 +1,307 @@
+/*Phase 1 - Portfolio CSS*/
+
+/* Body Styling */
+/* This is styling for the entire page */
+body {
+    background-color: #888;
+}
+
+/*Navigation Bar*/
+/* This is styling for the navigation bar */
+
+.nav-bar{
+    height: 50px;
+    width: 100vw;
+    background-color: gray;
+
+    position: fixed;
+    align-items: baseline;
+}
+
+header{
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    position: fixed;
+    top: 10px;
+
+    color: white;
+    font-size: large;
+}
+
+nav{
+    margin-left: 60vw;
+
+    position: fixed;
+    top: 10px;
+
+    color: lightgrey;
+    font-size: medium;
+}
+
+nav a{
+    margin-right: 2vw;
+}
+
+
+/*Main Page Article*/
+/* This is styling for the main page article */
+/* It includes styling for the home page */
+
+.home{
+    color: white;
+    font-size: 5vw;
+
+    background-color: lightgreen;
+
+    float: left;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+
+/* About Me Page */
+/* This is styling for the about me page on my website */
+/* It includes styling and positioning for the image and text */
+
+.about-me{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+
+.about-me section{
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-right: 10vw;
+
+    float: right;
+}
+
+.about-me p{
+    font-size: 1.5vw;
+    margin-top: 2vh;
+}
+
+.about-me figure{
+    border: solid 2pt darkgray;
+
+    height: 50%;
+    width: 25%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-left: 10vw;
+
+    float: left;
+}
+
+/* Experience Page */
+/* This is styling for the experience page on my website */
+
+.experience{
+    background-color: honeydew;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+
+#experience-container {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 20vh;
+}
+
+#experience-container p {
+    background-color: whitesmoke;
+    height: 50vh;
+
+    border: solid 2pt black;
+}
+
+
+/* Skills Page */
+/* This is styling for the skills page on my website */
+
+.skills{
+    background-color: darkgrey;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+
+.skills article{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+    margin-top: 25vh;
+}
+
+.skills section{
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-right: 10vw;
+
+    float: right;
+}
+
+.skills p{
+    font-size: 1.5vw;
+    margin-top: 2vh;
+}
+
+.skills table{
+    background-color: whitesmoke;
+    border: solid 2pt darkgray;
+
+    height: 50%;
+    width: 25%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-right: 10vw;
+
+    float: right;
+}
+
+/* Education Page */
+/* This is styling for the education page on my website */
+
+.education{
+    background-color: wheat;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+
+.education section{
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-right: 10vw;
+
+    text-align: center;
+    float: right;
+}
+
+.education h2{
+    font-size: 1.75vw;
+    text-align: left;
+}
+
+.education span{
+    font-size: 1.5vw;
+    text-align: right;
+}
+
+.education hgroup{
+    display: flex;
+    align-items: baseline;
+
+    justify-content: space-between;
+}
+
+.education p{
+    margin-top: 2vh;
+
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.education ul{
+    list-style: circle;
+
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.education figure{
+    border: solid 2pt darkgray;
+
+    height: 50%;
+    width: 25%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-left: 10vw;
+
+    float: left;
+    position: relative;
+}
+
+.education figcaption{
+    color: whitesmoke;
+    background-color: darkgray;
+
+    position: absolute;
+    bottom: 2vh;
+}
+
+
+/* Projects Page */
+/* This is styling for the projects page on my website */
+
+.projects{
+    background-color: snow;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+
+.projects div{
+    margin-top: 25vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+.projects h2{
+    font-size: xx-large;
+    margin-top: 4vh;
+}
+
+.projects p{
+    font-size: x-large;
+    margin-top: 3vh;
+}
+
+
+/*Footer*/
+/* This is styling for the footer and its text (currently links) */
+
+footer{
+    background-color: darkgray;
+    clear: both;
+    text-align: center;
+    display: inline-flexbox;
+    height: 50px;
+}
+
+footer a{
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*Article Styling*/
+/* This is font styling for the articles (main pages) of my website */
+/* It includes the font size and text alignment */
+
+article p{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+article h1{
+    font-size: 5vw;
+    text-align: center;
+}
